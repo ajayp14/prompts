@@ -1,0 +1,6 @@
+"homepage": "https://yourdomain.com",
+"scripts": {
+  // ... other scripts
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
